@@ -12,7 +12,9 @@
         if option is not recognized then show warining and ask if user wants to continue  
                  if user chooses yes then go to the first step  
                  if user chooses no then exit application  
-* 
+* Load the word list specified by the iser for unscrambling the given scrambled words
+* Start matching scrambled words against the loadded word list
+                for each scrambled word in specified scrambled words
 
 
 
