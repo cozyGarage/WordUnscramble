@@ -9,6 +9,9 @@
                 if the file is not recognized then show warning and ask if user wants to continue   
                       if user chooses yes then go to the first step  
                       if user chooses no then exit application  
+        if option is not recognized then show warining and ask if user wants to continue  
+                 if user chooses yes then go to the first step  
+                 if user chooses no then exit application  
 * 
 
 
