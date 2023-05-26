@@ -13,9 +13,15 @@
                  if user chooses yes then go to the first step  
                  if user chooses no then exit application  
 * Load the word list specified by the iser for unscrambling the given scrambled words
-* Start matching scrambled words against the loadded word list
-                for each scrambled word in specified scrambled words
-
+* Start matching scrambled words against the loadded word list  
+                for each scrambled word in specified scrambled words  
+                        for each unscrambled word in word list  
+                                if scrambled word == unscrambled word then add to list of matched  
+                                otherwise  
+                                        sort scrambled word  
+                                        sort unscrambled word  
+                                        if sorted scrambled word == sorted unscrambled word then add to list of matched  
+                 if matches found then show matched scrambled words for all unscrambled words
 
 
 ## Flowchart
